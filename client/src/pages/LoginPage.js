@@ -6,10 +6,14 @@ import "./LoginPage.css"
 
 function LoginPage(props) {
     return (
+        <>
+        <div className="background">
         <div className="grid-x medium-offset-3 columns">
         <Login className="signup small-12 medium-12 columns" userInfo={props.userInfo}/>
         <CreateAccount className="login medium-pull-1 columns" userInfo={props.userInfo}/>
         </div>
+        </div>
+        </>
     )
 }
 

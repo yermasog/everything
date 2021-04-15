@@ -9,7 +9,7 @@ import styled from "styled-components";
 import { CgSun } from "react-icons/cg";
 import { HiMailOpen, HiMoon } from "react-icons/hi";
 import UserContext from "../utils/UserContext";
-import "./Dashboard.css";
+
 
 
 const StyledCalendar = styled(Calendar)``;
